@@ -1,0 +1,13 @@
+Quebre 3 ovos em uma vasilha 
+Bata os ovos 
+Enquanto os ovos não estão bem batidos
+Aqueça a frigideira
+Coloque os ovos na frigideira 
+Mexa os ovos 
+Enquanto os ovos não estão prontos 
+Se o cliente pedir queijo
+Adicionar queijo
+Remova a frigideira do fogo
+Transfira os ovos para o prato 
+Sirva
+
