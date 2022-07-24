@@ -1,0 +1,5 @@
+qual o nome do cachorro? codie
+qual a idade canina? 12
+idade humana= multiplicar idade canina por 7
+qual a idade humana do codie?  84
+o cachorro codie tem 84 anos humanos 
