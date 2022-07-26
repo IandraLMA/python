@@ -5,8 +5,8 @@ last = last + " bola "
 name = "Rodrigo"
 namorada = "Iandra"
 print("oi morzinho vou bagunçar seu código;")
-print("bla bla bla bla") 
-print("posso baguncar denovo?")
+print("bla bla bla bla")
+print (" morzinho não pode bagunçar meu código! ")
 print (first)
 print (last) 
 print (first, last)
