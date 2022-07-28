@@ -1,0 +1,85 @@
+----- > PSEUDO CODIGO  <-----
+
+A = 10
+MSG = ""
+SE A == 10 ENTAO 
+   MSG = "OI IANDRA"
+SE A == 10 ENTAO
+   MSG = "OI RODRIGO"
+
+ESCREVER (MSG)
+RESULTADO : OI RODRIGO
+--------------------------------
+A = 10
+MSG = ""
+SE A == 10 ENTAO 
+   MSG = "OI IANDRA"
+SENAO SE A == 10 ENTAO
+   MSG = "OI RODRIGO"
+
+ESCREVER (MSG)
+RESULTADO : OI IANDRA
+
+A = 11
+MSG = ""
+SE A == 11 ENTAO 
+   MSG = "OI IANDRA"
+SENAO SE A == 10 ENTAO
+   MSG = "OI RODRIGO"
+SENAO 
+  MSG = "nehum dos 2"
+
+ESCREVER (MSG)
+RESULTADO : OI IANDRA
+
+
+
+A = 12
+MSG = ""
+SE A == 11 ENTAO 
+   MSG = "OI IANDRA"
+SENAO SE A == 10 ENTAO
+   MSG = "OI RODRIGO"
+SENAO 
+  MSG = "nehum dos 2"
+
+ESCREVER (MSG)
+RESULTADO : NENHUM DOS 2
+
+
+-------> PYTHON <--------------
+
+A = 10
+MSG = ""
+
+if ( A == 10 ) :
+  MSG = "OI IANDRA"
+if ( A == 10 ) :
+  MSG = "OI RODRIGO"
+PRINT (MSG) 
+RESULTADO : OI RODRIGO
+-----------------------------
+A = 10
+MSG = ""
+
+if ( A == 10 ) :
+  MSG = "OI IANDRA"
+elif ( A == 10 ) :
+  MSG = "OI RODRIGO"
+PRINT (MSG) 
+RESULTADO : OI IANDRA
+---------------------
+A = 12
+MSG = ""
+
+if ( A == 11 ) :
+  MSG = "OI IANDRA"
+elif ( A == 10 ) :
+  MSG = "OI RODRIGO"
+else
+    MSG = "nehum dos 2"
+	
+PRINT (MSG) 
+RESULTADO : nehum dos 2
+
+
