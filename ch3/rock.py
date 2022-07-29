@@ -1,4 +1,7 @@
 import random
+winner = " "
+# nesse jogo, o computador escolhe entre pedra, papel e tesoura
+# em seguida, o usuario faz sua escolha
 
 random_choice = random.randint (0,2)
 if random_choice == 0:
@@ -8,7 +11,19 @@ elif random_choice == 1:
 elif random_choice==2: 
     computer_choice = 'scissors'   
 user_choice = input (' rock, paper or scissors?')
-print (' You chose', user_choice , 'and the computer chose' , computer_choice )
-
-
-     
+if computer_choice == user_choice:
+    winner = "Tie"
+elif computer_choice == "paper" and user_choice == "rock":
+    winner = "computer"
+elif computer_choice == "rock" and user_choice == "scissors":
+    winner = "computer"
+elif computer_choice == "scissors" and user_choice == "paper":
+    winner = "computer"
+#existem tres possibilidades de vitoria do  computador, se não resultara em vitoria do usuario
+#caso haja empate, ira jogar novamente
+else: 
+    winner = "user "
+if winner == "tie" :
+    print ("We both chose", computer_choice + ", play again!")
+else:
+    print (winner, "won. The computer chose ", computer_choice + " ")
