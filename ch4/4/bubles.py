@@ -6,5 +6,5 @@ length= len (scores)
 i= 0
 while (i<length):
     output= output+ str (scores [i])
+    print ("Bubble solution #0 score: " + str(output) )
     i=i+1
-print ("Bubble solution #0 score: " + output )
